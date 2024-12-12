@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,16 +33,56 @@
     <script src="./assets/js/home.js" type="module"></script>
   </head>
   <body>
-    <p style="border: 1px solid black;" class="display-large">Typography 1</p>
-    <p style="border: 1px solid black;" class="display-medium">Typography 2</p>
-    <p style="border: 1px solid black;" class="display-small">Typography 3</p>
-    <p style="border: 1px solid black;" class="headline-small">Typography 4</p>
-    <p style="border: 1px solid black;" class="title-medium">Typography 5</p>
-    <p style="border: 1px solid black;" class="title-small">Typography 6</p>
-    <p style="border: 1px solid black;" class="body-large">Typography 7</p>
-    <p style="border: 1px solid black;" class="body-medium">Typography 8</p>
-    <p style="border: 1px solid black;" class="label-large">Typography 9</p>
-    <p style="border: 1px solid black;" class="label-medium">Typography 10</p>
-    <p style="border: 1px solid black;" class="label-smaall">Typography 11</p>
+    <!-- HEADER  -->
+    <header class="header" data-header>
+      <a href="/" class="logo">
+        <img
+          src="./assets/images/logo-light.svg"
+          alt="Cook"
+          width="156"
+          height="32"
+          class="logo-light"
+        />
+        <img
+          src="./assets/images/logo-dark.svg"
+          alt="Cook"
+          width="156"
+          height="32"
+          class="logo-dark"
+        />
+      </a>
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li>
+            <a href="/" class="navbar-link title-small has-state active"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="./recipes.html"
+              class="navbar-link title-small has-state"
+            >Recipes</a>
+          </li>
+        </ul>
+      </nav>
+      <button
+        class="icon-btn theme-switch has-state"
+        aria-pressed="false"
+        data-theme-btn
+        aria-label="Toggle light and dark theme"
+      >
+        <span class="material-symbols-outlined light-icon" aria-hidden="true"
+          >light_mode</span
+        >
+        <span class="material-symbols-outlined dark-icon" aria-hidden="true"
+          >dark_mode</span
+        >
+      </button>
+      <a href="./saved-recipes.html" class="btn btn-primary has-icon">
+        <span class="material-symbols-outlined " aria-hidden="true">book</span>
+        <span class="span"> Saved Recipes </span>
+      </a>
+    </header>
   </body>
 </html>
