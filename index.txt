@@ -204,7 +204,7 @@ All Recipes - Cook.io
 #---------- FILTER ----------#
 
 <span class="material-symbols-outlined" aria-hidden="true">filter_list</span>
-Filters
+Filters 
 
 aria-label = Close filter bar
 <span class="material-symbols-outlined" aria-hidden="true">close</span>

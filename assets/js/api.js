@@ -1,7 +1,7 @@
 /**
  * @license MIT
- * @copyright 2024 ajede
- * @author ajede <arnaldoespinoza1@hotmail.com>
+ * @copyright 2025 ajedev
+ * @author ajedev <arnaldoespinoza1@hotmail.com>
  */
 
 "use strict";

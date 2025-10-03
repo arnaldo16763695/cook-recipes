@@ -1,6 +1,6 @@
 /**
  * @license MIT
- * @copyright 2024 ajedev
+ * @copyright 2025 ajedev
  * @author ajedev <arnaldoespinoza1@hotmail.com>
  */
 
